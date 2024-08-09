@@ -15,7 +15,7 @@ namespace EmployeeApi.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Employee>()
-                .HasKey(e => e.EmpId);
+                .HasKey(e => e.emp_id);
         }
     }
 }
